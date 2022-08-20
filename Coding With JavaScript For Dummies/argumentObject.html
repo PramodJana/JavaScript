@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Welcome Message</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function flexibleWelcome(){
+			var welcome = "Welcome, ";
+			for(i = 0; i<arguments.length;i++){
+				welcome = welcome + arguments[i]+" ";
+			}
+			return welcome;
+		}
+		document.write(flexibleWelcome("Christopher","James","Phoenix","Minnick")+"<br>");
+		document.write(flexibleWelcome("Pramod","Shiv","Horler","Sia")+"<br>");
+	</script>
+</body>
+</html>
