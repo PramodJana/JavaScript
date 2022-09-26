@@ -4,7 +4,7 @@
 	<script type="text/javascript">
 		function checkMath(result){
 			var userMath = document.getElementById("answer1").value;
-			var errors = document.getElementsByClassName("error");
+			var error = document.getElementsByClassName("error");
 			if(parseInt(userMath) != parseInt(result)){
 				error[0].innerHTML = "That's wrong. You entered " + userMath + " . The answer is " + result;
 			}
@@ -20,3 +20,4 @@
 	<button id="submit" onclick="checkMath(4+1);">Check your math!</button>
 	<h1 class="error"></h1>
 </body>
+</html>
