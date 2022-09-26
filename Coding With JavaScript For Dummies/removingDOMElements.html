@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Remove an element</title>
+	<script type="text/javascript">
+		function removeFirstParagraph(){
+			var firstPara = document.getElementById("firstparagraph");
+			firstPara.parentNode.removeChild(firstPara);
+		}
+	</script>
+</head>
+<body>
+	<div id="gibberish">
+		<p id = "firstparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend eget sem non rutrum. Nullam posuere elementum purus. Vestibulum tristique, enim et fermentum dapibus, tellus purus condimentum est, vel scelerisque ligula elit id nunc. Nulla elit turpis, rhoncus sed neque in, egestas porttitor turpis. Aenean tellus lacus, semper quis vestibulum luctus, viverra id nunc. Mauris lacus dui, viverra sed mi quis, tincidunt accumsan magna. Nam mattis, metus vitae venenatis luctus, justo odio mollis tortor, a accumsan mi mauris eu neque. Vivamus et diam tincidunt, rutrum odio vitae, fringilla leo. Maecenas interdum eros ac fringilla feugiat. Suspendisse tincidunt lorem eu risus sagittis lacinia.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse rutrum dictum sapien sed viverra. Sed vehicula lectus sed elit auctor ultrices. Curabitur porta iaculis orci sed interdum. Aliquam vel elementum sem. Maecenas vitae placerat quam. Suspendisse a sem ornare, rhoncus mauris eu, iaculis augue. Sed faucibus massa lorem, et egestas purus convallis non. Integer vulputate lacinia diam, non molestie lacus feugiat consectetur.
+
+Ut congue ex purus, id varius sem laoreet vel. Aenean sapien nisi, cursus ac felis a, aliquet vestibulum eros. Ut vel urna in ex dapibus finibus eget vitae metus. Donec non urna ex. Morbi eros lectus, sagittis sed sollicitudin in, fermentum ac odio. Nullam mollis consequat diam sed scelerisque. Nunc dui arcu, vestibulum sit amet diam non, luctus mollis arcu. Etiam sit amet blandit metus, ullamcorper semper ligula. Pellentesque volutpat mauris ac interdum viverra. Donec consectetur viverra massa non sagittis. Nullam vel rutrum mi. Donec sodales turpis a orci elementum, in elementum orci vestibulum. Aliquam erat volutpat. Pellentesque aliquam tempor quam sit amet rutrum. Nam ligula magna, viverra eget sapien eget, consectetur ullamcorper metus. Pellentesque eu nisi felis.
+
+Nullam sit amet nunc ac erat aliquet vestibulum. Curabitur eu mollis lorem. Vestibulum nec turpis sagittis, suscipit augue ac, mattis nibh. Phasellus pellentesque non urna mollis cursus. Phasellus vehicula lectus diam, eget maximus enim gravida eu. Aliquam erat volutpat. Praesent tristique, ipsum ac aliquam mattis, massa nibh elementum mi, quis lacinia diam sapien sed metus. Phasellus dictum velit eros, et suscipit felis luctus eu. Quisque pharetra mi a ornare finibus. Aenean eu volutpat augue. Proin et rutrum mi.
+
+Pellentesque dapibus dolor ut feugiat posuere. Phasellus ut molestie justo, laoreet vehicula nunc. Nullam in metus luctus, eleifend ante sit amet, gravida leo. Sed gravida nunc ex, sit amet venenatis magna lacinia vel. Praesent sit amet ligula accumsan, pharetra tortor ac, porttitor tortor. Suspendisse auctor tellus rhoncus nisi laoreet consequat. Quisque semper ut velit nec lacinia. Fusce ut iaculis justo, vitae tempor urna. Sed gravida consectetur odio, quis vestibulum eros tristique ut. Nam rutrum, sapien non tristique elementum, ipsum felis ornare metus, non aliquam leo felis ut risus. Fusce aliquam nisl sem, a molestie risus pharetra cursus. Sed ultrices lacinia velit nec hendrerit. Maecenas mattis nulla sed nisl sagittis molestie. Vestibulum elementum pulvinar magna.</p>
+	</div>
+	<button onclick="removeFirstParagraph()">That's Gibberish!</button>
+</body>
+</html>
