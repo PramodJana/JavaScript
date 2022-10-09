@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Counting App</title>
+        <script>
+            //Wait untill the window is loaded before registering the onclick event 
+            window.onload = initializer;
+            //Create a global counting variable
+            var theCount = 0;
+
+            //Registers onclick event
+            function initializer(){
+                document.getElementById("incrementButton").onclick = increaseCount;
+            }
+
+            //Increments theCount and displays result.
+            function increaseCount(){
+                theCount++;
+                document.getElementById("currentCount").innerHTML = theCount;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Click the button to count.</h1>
+        <p>Current Number: <span id="currentCount">0</span></p>
+        <button id = "incrementButton">Increase Count</button>
+    </body>
+</html>
