@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "kuber": "^0.0.5",
+    "readline-sync": "^1.4.10"
+  }
+}
